@@ -18,6 +18,10 @@ c++;
 i++;
 }
 j = c / 2;
+if (c % 2 == 1)
+{
+j = ((c + 1) / 2);
+}
 while (j < c)
 {
 _putchar(str[j]);
